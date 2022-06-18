@@ -13,10 +13,10 @@ export default function Navbar () {
                             </AnchorLink>
                         
                             <ul className="right hide-on-med-and-down">
-                                <li><AnchorLink href="/home">Home</AnchorLink></li>
-                                <li><AnchorLink href="/about">About Us</AnchorLink></li>
-                                <li><AnchorLink href="/services">Services</AnchorLink></li>
-                                <li><AnchorLink href="/contact">Contact</AnchorLink></li>
+                                <li><AnchorLink href="#home">Home</AnchorLink></li>
+                                <li><AnchorLink href="#about">About Us</AnchorLink></li>
+                                <li><AnchorLink href="#services">Services</AnchorLink></li>
+                                <li><AnchorLink href="#contact">Contact</AnchorLink></li>
                             </ul>
                     </div>
                 </nav>
