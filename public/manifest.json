@@ -1,4 +1,8 @@
 {
-    "display_override": ["window-control-overlay", "minimal-ui"],
-    "display": "standalone"
-  }
+  "short_name": "AS Serwis",
+  "name": "AS Serwis website",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

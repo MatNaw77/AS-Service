@@ -1,63 +1,19 @@
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+   
+    <title>AS Serwis</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
 
-  <link rel="manifest" href="/manifest.json" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-
-  <title>AS-Service</title>
-</head>
-
-<body>
-  <div id="root"></div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/jsx" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
-  <script type="text/javascript">
-  
-    document.addEventListener('DOMContentLoaded', function () {
-      var elems = document.querySelectorAll('.sidenav');
-      var instances = M.Sidenav.init(elems);
-    });
-    $(document).ready(function () {
-      $('.sidenav').sidenav();
-    });
-
-    document.addEventListener('DOMContentLoaded', function () {
-      var elems = document.querySelectorAll('.carousel');
-      var instances = M.Carousel.init(elems);
-    });
-    $(document).ready(function () {
-      $('.carousel').carousel();
-    });
-
-    document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems);
-  });
-
-  // Or with jQuery
-
-  $(document).ready(function(){
-    $('.slider').slider();
-  });
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.scrollspy');
-    var instances = M.ScrollSpy.init(elems, {throttle: 200});
-  });
-
-  $(document).ready(function(){
-    $('.scrollspy').scrollSpy();
-  });
- 
-
-  </script>
-
-</body>
-
+  </body>
 </html>
