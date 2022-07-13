@@ -1,14 +1,16 @@
 import React from "react";
 import { useStyles } from './styles';
 import { Typography } from "@mui/material";
+import text from './text.json';
 
 export const About = () => {
     const classes = useStyles();
 
     return (
-        <div className={classes.about}>
-            <div className={classes.text}>
-                <span className={classes.name}>
+        <>
+        <div className={classes.intro}>
+            <div className={`${classes.text} ${classes.introText}`}>
+                <span className={classes.introHeader}>
                     AS Serwis
                 </span>
                 <Typography >
@@ -20,5 +22,16 @@ export const About = () => {
                 </Typography>
             </div>
         </div>
+            <div className={classes.bg}>
+                <div className={classes.about}>
+                    <span className={`${classes.aboutHeader} ${classes.text}`}>
+                        O nas
+                    </span>
+                    <Typography className={`${classes.aboutText} ${classes.text}`}>
+                        {text.text}
+                    </Typography>
+                </div>
+            </div>
+        </>
     );
 }
