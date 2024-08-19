@@ -29,7 +29,7 @@ export async function POST(req: NextRequest) {
 
     let mailOptions = {
       from: process.env.NEXT_GMAIL,
-      to: 'mateusz.nawrat@icloud.com',
+      to: 'siemienikandrzej@gmail.com',
       subject: `Awaria ${payload.name}`,
       text: emailText,
     };
