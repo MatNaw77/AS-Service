@@ -1,0 +1,92 @@
+.contact {
+    /* width: 100%; */
+    margin: 0% 10% 4% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-header {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    font-family: Lato;
+    color: white;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; 
+    margin-bottom: 50px;
+}
+
+.contact-container{
+    display: flex;
+}
+
+.contact-form {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    max-width: 50%;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 120%
+}
+
+.input {
+    margin: 4px;
+    height: 53px;
+    padding-left: 10px;
+    flex: 0 0 calc(49% - 14px);
+    border-radius: 13px;
+    background: #D9D9D9;
+    border: none;
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%; 
+    outline: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.send-div {
+    margin-top: 10px;
+    width: calc(100% - 28px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.long-input {
+    width: 100%;
+    height: 160px;
+    flex: 0 0 calc(100% - 34px);
+    padding: 10px; /* Add padding for some space around the text */
+    box-sizing: border-box; /* Ensure padding is included in the total height and width */
+    vertical-align: top; /* This is for inline elements; not needed here */
+    resize: none; /* Optional: Prevent resizing */
+    line-height: normal; /* Ensure normal line height */
+    overflow-y: auto;
+}
+
+@media (min-width: 1300px) {
+    .contact {
+        margin: 0% 15% 4% 15%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .contact {
+        margin: 0% 20% 4% 20%;
+    }
+}
