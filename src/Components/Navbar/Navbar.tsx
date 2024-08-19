@@ -1,4 +1,4 @@
-import ServiceIcon from "@/Icons/ServiceIcon"
+import ServiceIcon from "../Icons/ServiceIcon"
 import './navbar.css'
 import Button from "../Button/Button"
 
